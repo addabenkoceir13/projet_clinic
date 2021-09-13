@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../photo/IMG_02.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+form .form-group span {color: red;}
+.photo_left{
+    display: block;
+    float: left;
+}
+ .photo_left img{
+    
+    width: 300px;
+    /* float: left; */
+    margin: 30px 20px;
+}
+.wrpper{
+    padding: 30px 0 ;
+    width: 750px;
+    background: rgba(255, 253, 253, 0.9);
+    border-radius: 10px;
+    
+}
+.wrpper h1{
+    text-align: center;
+    color: #2b90d9;
+    margin: 20px 0;
+}
+.wrpper form{
+    margin: 35px 30px;
+}
+.field_log .input_field{
+    width: 350px;
+    height: 55px;
+    margin: 10px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    background: #f4f5f9;
+    display: grid;
+    position: relative;
+    grid-template-columns: 15% 85%;
+}
+.field_log .input_field input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #333;
+    font-size: 15px;
+    line-height: 1;
+    font: 600;
+    /* margin: 20px 0; */
+}
+.input_error .fas{
+    /* display: block; */
+    position: absolute;
+    top: 90px;
+    color: black;
+    /* right: 30px; */
+}
+.input_field input:focus{ 
+    border: 2px solid #0D6EFD;
+    border-radius: 10px;
+    height: 55px;
+    color: #0D6EFD;
+    font-family: "Poppins", sans-serifs;
+    padding-left: 10px;
+}
+.input_field i {
+    text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    font-size: 20px;
+}
+.input_fieldd i:hover{
+    color: #0D6EFD;
+}
+.wrpper button{
+    margin-top: 10px;
+    padding: 10px 110px ;
+    border-radius: 10px;
+    font-size: 20px;
+    background: #5995fd;
+    color: #fff;
+    border:#5995fd;
+    
+}
+.wrpper button:hover{
+    background: #4d84e2;
+}
+.wrpper .link{
+    
+    margin-top: 10px;
+    color:rgb(9, 5, 5) ;
+    text-decoration: none;
+    font-size: 20px;
+} 
+.wrpper .sing{
+    text-decoration: none;
+    border: 1px solid #0D6EFD;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: black;
+    font-size: 25px;
+   
+}
+.wrpper .sing:hover {
+    
+    border: 1px solid #0D6EFD;
+    background: #0D6EFD;
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: white;
+   
+}
+.field_log .error .error_e{
+    font-size: 20px;
+    color: rgb(255, 5, 5);
+    margin-left: -20%;
+    display: inline-block;
+}
+form .error2{
+    
+    background: rgba(255, 84, 84, 0.693);
+    border-radius: 10px;
+    padding: 10px 50px;
+    /* width: 400px; */
+    color: rgb(0, 0, 0);
+}
+form h4{
+    margin-left: 300px;
+}

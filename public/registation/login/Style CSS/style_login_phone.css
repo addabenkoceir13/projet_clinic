@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@media  screen and (max-width:880px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .wrpper h1{
+        text-align: center;
+    }
+    .wrpper{
+        width: 600px;
+        height: 400vh;
+    }
+    .wrpper img{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .wrpper form{
+        clear: both;
+        /* margin: 35px 30px; */
+    }
+}
+
+@media  screen and (max-width:1300px){
+    .wrpper{
+        height: 100%;
+    }
+}

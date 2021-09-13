@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Home"
+		},
+		{
+			"path": "..\\..\\Doctor"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Services"
+	}
+}

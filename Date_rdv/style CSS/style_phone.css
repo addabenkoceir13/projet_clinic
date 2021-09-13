@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* CSS for Phone  */
+@media screen and (max-width: 620px){ 
+
+            /*  start ...Code CSS For Clinic EL-AMEN RSMI part one  */
+
+section .clinic .elamen{
+     font-size: 25px;
+     width: 100%;
+ }
+ .datc{
+     font-size: 20px;
+     width: 100%;
+ }
+ .appointment{
+    width: 100%;
+}
+  /*  start ... code CSS phone For More Details part nine   */
+.information{
+    width: 100%;
+}
+.information-clinic{
+    height: 60vh;
+    width: 100%;
+    margin: 0 10% 0 5%;
+}
+
+            /*  start ... code CSS phone For More Details part nine   */
+}

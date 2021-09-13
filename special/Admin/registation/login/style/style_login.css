@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+body{
+    background: url(../../photo/IMG-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    overflow: hidden;
+    
+}
+.form-log-in{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    min-height: 700px;
+
+}
+.wrrper{
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px) ;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px rgba(184, 167, 167, 0.9);
+    
+}
+.heading h1{
+    font-family: "Arimo script=latin rev=1";
+    font-style: italic;
+    color: #2b90d9;
+    margin: 20px 0;
+}
+
+form{
+    padding: 35px 40px;
+}
+
+
+
+
+
+.label-style{
+    float: left;
+    font-size: 18px;
+    font-family: "Arimo script=latin rev=1";
+    font-style: italic;
+}
+form .error2{
+    
+    background: rgba(255, 84, 84, 0.693);
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: rgb(0, 0, 0);
+}

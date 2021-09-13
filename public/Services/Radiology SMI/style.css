@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5f3f7;
+}
+
+   
+/* _________________________________________________________8_______________________________________________________________________________________ */
+
+            /*  start ...Code CSS For Clinic EL-AMEN RSMI part Two  */
+section .clinic  {
+    text-align: center;
+    font-size: 45px;
+    margin: 2% 0 0 2%;
+}
+section .clinic .elamen{
+    display: inline;
+    color: #f52c51;
+}
+.datc{
+    display: inline;
+    color:#60b4df;
+    border-bottom: 3px solid #60b4df;
+    font-family: "Gill Sans", sans-serif;
+
+}
+.hedding5{
+    color:#60b4df;
+    font-size: 30px;
+    width: 580px;
+    padding-left: 1%;
+    text-align: center;
+    margin:2% 32%;
+    border-bottom: 3px solid #60b4df;
+    font-family: "Gill Sans", sans-serif;
+
+}
+section .annoucement{
+    border: 1px solid black;
+    width: 95%;
+    margin: 1% 3%;
+    height: 20vh;
+}
+            /*  end ...Code CSS For Clinic EL-AMEN RSMI part Two  */
+/* _________________________________________________________8_______________________________________________________________________________________ */
+
+             /* Start ... Code CSS for  parti three   */
+
+ .radiology img{
+    float: left;
+    width: 500px;
+    border-radius: 55px;
+    box-shadow: 4px 4px 22px 1px #a4a79f;
+    margin: 0 2% 5% 3%;
+    transition: 0.9s;
+}   
+.radiology img:hover{
+    box-shadow: 4px 4px 22px 1px #3498db;
+} 
+  
+.radiology-info{
+    width: 700px;
+    float: left;
+    align-items: center;
+    margin: 10% 0 0 10%;
+    
+}
+.radiology-info h1{
+    font-size: 45px;
+    color: #3498db;
+    text-align: center;
+
+}
+.radiology-info p {
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 60px;
+    margin-top: 10px;
+    line-height: 30px;
+    
+}
+.radiology-info h3{
+    color: #CADBE9;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    background: #6AAFE6;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin-top: 90px;
+}
+.radiology-info h3:hover{
+    background: #81b7e2;
+    color: white;
+}
+.radiology1{
+    text-align: center;   
+}
+.radiology1 img{
+    width: 600px;
+    border-radius: 55px;
+    margin: 0 1% ;
+    box-shadow: 4px 4px 22px 1px #a4a79f;
+    transition: 0.9s;
+}
+.radiology-info{
+    width: 700px;
+    float: left;
+    align-items: center;
+    margin: 10% 0 0 10%;
+    
+}
+.img-radio{
+    text-align: center;
+}
+
+             /* end ... Code CSS for  parti three   */
+/* _________________________________________________________8_______________________________________________________________________________________ */
+             /* Start ... Code CSS for  parti four   */
+.radiology-info2{
+    margin: 5% 0 0 5%;
+    width: 700px;
+    float: left;
+}
+.radiology-info2 h1{
+    color: #3498db;
+}
+.radiology-info2 p{
+    text-align: justify;
+    text-indent: 60px;
+    line-height: 30px;
+}
+.radiology2 img{
+    width: 600px;
+    border-radius: 55px;
+    box-shadow: 4px 4px 22px 1px #a4a79f;
+    margin: 0 2% 5% 5%;
+    transition: 0.9s;
+}  
+.radiology1 img:hover{
+    box-shadow: 4px 4px 22px 1px #3498db;
+}
+.radiology2 img:hover{
+    box-shadow: 4px 4px 22px 1px #3498db;
+}  
+.radiology .img1{
+    margin-top: 10%;
+    width: 600px;
+}
+.radiology1 .img2{
+    height: 450px;
+}
+.img-radio{
+    clear: both;
+}
+.img-radio img{
+    box-shadow: 4px 4px 22px 1px #a4a79f;
+    border-radius: 55px;
+    margin: 10% 1%;
+    width: 650px;
+    transition: 0.9s;
+
+}
+.img-radio img:hover{
+    box-shadow: 4px 4px 22px 1px #3498db;
+}
+.img2{
+    text-align: center;
+}
+.img2 img{
+    width: 500px;
+    box-shadow: 4px 4px 22px 1px #a4a79f;
+    border-radius: 55px;
+    margin: 5% 1%;
+    transition: 0.9s;
+
+}
+.img2 img:hover{
+    box-shadow: 4px 4px 22px 1px #3498db;
+}
+             /* end ... Code CSS for  parti four   */
+/* _________________________________________________________8_______________________________________________________________________________________ */
+
+
+          /*  start ... code CSS for panoramique dentaire --> */
+.pano-text {
+    float: left;
+    width: 45%;
+    margin: 2%;
+    align-items: center;
+    margin-top: 10%;
+
+}
+.pano-text h1{
+    font-size: 45px;
+    color: #3498db;
+    text-align: center;
+}
+.pano-text  p{
+    text-align: justify;
+    text-indent: 60px;
+    line-height: 30px;
+}
+.pano-text h3{
+    color: #CADBE9;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    background: #6AAFE6;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin-top: 90px;
+}
+.pano-text h3:hover{
+    background: #81b7e2;
+    color: white;
+}
+.pano img{
+    float: left;
+    width: 500px;
+    border-radius: 55px;
+    box-shadow: 4px 4px 22px 1px #a4a79f;
+    margin: 0 2% 5% 3%;
+    transition: 0.9s;
+}   
+.pano img:hover{
+    box-shadow: 4px 4px 22px 1px #3498db;
+} 
+             /* end ... Code CSS for  parti four   */
+/* _________________________________________________________8_______________________________________________________________________________________ */
+
+   
+ /* _____________________________________________________________________________________________________________________________________________________ */
+
+      /*  start ... code CSS for More Details parti six   - */
+    
+.information{
+    background: #2b90d9;
+    width: 100%;
+    height: 80vh;
+    border-bottom: 2px solid #fff;
+}
+.information{
+    content: "";
+    display: table;
+    clear: both;
+}
+.information-clinic{
+    float: left;
+    width: 23%;
+    height: 60vh;
+    margin-left: 2%;
+    /* border: 1px solid black; */
+}
+.information-clinic img{
+    text-align: center;
+    width: 50%;
+    margin: 2% 0 2% 10%;
+}
+.information-clinic h2{
+    color: #e1eef6;
+    font-size: 28px;
+    padding:0 0  1% 7%;
+    font-weight: 900;
+    margin: 5% 0 0 13%;
+    align-items: center;
+    border-bottom: 3px solid #d9e1e8;
+    width: 80%;
+}
+.information-clinic p{
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+    /* width: 200px; */
+    margin: 5%;
+    line-height: 1.5;
+
+}
+.information-clinic h3{
+    font-family: Georgia, serif;
+    font-weight: 300;
+    color: #282c37;
+    border-bottom: 3px solid #d9e1e8;
+    width: 38%;
+    bottom: 10px;
+    font-size: 25px;
+    margin-top: 10%;
+    padding-bottom: 1%;
+
+}
+.information-clinic a{
+    font-family: Arial Narrow, sans-serif;
+    color: aliceblue;
+    text-align: left;
+    margin: 0 0 0 10%;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 2;
+    border-bottom: 2px solid 2px;
+    padding-bottom: 1%;
+
+
+}
+.information-clinic a:hover{
+    color:#9baec8;
+    /* color: rgba(240, 235, 235, 0.987); */
+    border-bottom: 3px solid #d9e1e8;
+    bottom: 5px;
+    height: 3px;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+.information-clinic h4{
+    font-weight: 300;
+    color: #e1eef6;
+    border-bottom: 2px solid #fff;
+    width: 70%;
+    padding: 0 0 1% 6%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top: 10%;
+    font-family: Times, Times New Roman, serif;
+}
+.information-clinic h4 span{
+    color: #d9e1e8;
+}
+.information-clinic a:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 100%;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1.2s linear;
+}
+.information-clinic ul li{
+    color: #fff;
+    margin-left: 60px;
+}
+.social-networking{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+    border-bottom:2px solid #fff;
+    padding-bottom: 3%;
+    
+}
+.social-networking a{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 3%;
+}
+.social-networking a:hover{
+    color: #e1eef6;
+
+}
+.para{
+    text-align: center;
+    font-size: 18px;
+    font-family: oblique;
+    color: #fff;
+    margin: 1% 0 1% 0;
+}
+               /*  end ... code CSS for More Details parti six   - */
+        
+        /*  ________________________________________________________________________________________________________ --> */
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

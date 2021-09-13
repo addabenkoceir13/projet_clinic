@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #e5f3f7;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+        /*Start ... Code CSS  For navbar parti one */
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #60b4df;
+    width: 100%;
+    z-index: 1000;
+   
+}
+.container{
+    max-width: 90rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+.logo-img{
+    width: 50px;
+    margin-right: 1%;
+}
+.logo-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn{
+    flex: 3;
+    display: flex;
+}
+
+.nav-links{
+    flex: 2;
+}
+
+.log-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    display: none;
+}
+
+.logo{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 3rem;
+}
+
+.logo span{
+    font-weight: 300;
+}
+
+.btn{
+    display: inline-block;
+    padding: .5rem 1.3rem;
+    font-size: .8rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    line-height: 1;
+    margin: 0 .2rem;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+.btn.solid, .btn.transparent:hover{
+    background-color: #fff;
+    color: #69bde7;
+}
+
+.btn.transparent, .btn.solid:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.nav-links > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    position: relative;
+}
+
+.nav-link > a{
+    line-height: 3rem;
+    color: #fff;
+    padding: 0 1.8rem;
+    letter-spacing: 1px;
+    font-size: .95rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s;
+}
+
+.nav-link > a > i {
+    margin-left: 0.5rem;
+}
+.fa{
+    margin-right: .5rem;
+}
+.nav-link:hover > a{
+    color: black;
+     background-color: #efefef;
+     border-radius: 20px;
+}
+
+
+
+.dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 10rem;
+    transform: translateY(10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.dropdown ul{
+    position: relative;
+}
+
+.dropdown-link > a{
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    background-color: #3498db;
+    color: #d8e1e7;
+    padding: 10px  ;
+    font-size: 20px;
+    width: 100%;
+    display: list-item;
+    align-items: center;
+    /* justify-content: space-between; */
+    transition: .3s;
+}
+
+.dropdown-link:hover > a{
+    background-color: #f3f4f5;
+    border: 1px solid black;
+    color: #000;
+} 
+
+.dropdown-link:not(:nth-last-child(2)){
+    border-bottom: 1px solid #efefef;
+}
+
+.dropdown-link i{
+    transform: rotate(-90deg);
+}
+
+.arrow{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: -5.5px;
+    left: 32px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    cursor: pointer;
+    transition: .3s;
+    z-index: -1;
+}
+
+.dropdown-link:first-child:hover ~ .arrow{
+    background-color: #3498db;
+}
+
+.dropdown-link{
+    position: relative;
+}
+
+.dropdown.second{
+    top: 0;
+    left: 100%;
+    padding-left: .8rem;
+    cursor: pointer;
+    transform: translateX(10px);
+}
+
+.dropdown.second .arrow{
+    top: 10px;
+    left: -5.5px;
+}
+
+.nav-link:hover > .dropdown,
+.dropdown-link:hover > .dropdown{
+    transform: translate(0, 0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.hamburger-menu-container{
+    flex: 1;
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hamburger-menu{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hamburger-menu div{
+    width: 1.6rem;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1001;
+    transition: .5s;
+}
+
+.hamburger-menu div:before,
+.hamburger-menu div:after{
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.hamburger-menu div:before{
+    transform: translateY(-7px);
+}
+
+.hamburger-menu div:after{
+    transform: translateY(7px);
+}
+
+#check{
+    position: absolute;
+    top: 50%;
+    right: 1.5rem;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 90000;
+    cursor: pointer;
+    opacity: 0;
+    display: none;
+}
+
+#check:checked ~ .hamburger-menu-container .hamburger-menu div{
+    background-color: transparent;
+}
+
+#check:checked ~ .hamburger-menu-container .hamburger-menu div:before{
+    transform: translateY(0) rotate(-45deg);
+}
+
+#check:checked ~ .hamburger-menu-container .hamburger-menu div:after{
+    transform: translateY(0) rotate(45deg);
+}
+
+@keyframes animation{
+    from{
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+        /*end ... Code CSS  For navbar parti one */
+ /* _____________________________________________________________________________________________________________________________________________________ */
+
+       /* Start ... code Css For clinic EL-Amen part two */
+section .clinic  {
+    text-align: center;
+    font-size: 45px;
+    margin: 2% 0 0 2%;
+}
+section .clinic .elamen{
+    display: inline;
+    color: #f52c51;
+}
+.datc{
+    display: inline;
+    color:#60b4df;
+    border-bottom: 3px solid #60b4df;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+       /* end ... code Css For clinic EL-Amen part two */
+ /* _____________________________________________________________________________________________________________________________________________________ */
+
+        /*  Start ... Code CSS  for CV Dr zine part three  */
+.img-Dr img{
+    float: left;
+    width: 500px;
+    margin: 0 2% 2% 5%;
+    border-radius: 8%;
+    box-shadow: 5px 4px 22px 0 #a3a1a1;
+} 
+.cv-Dr h1{
+    margin-top: 3%;
+    margin-left: 45%;
+    color:#60b4df ;
+    font-family: serif;
+    font-size: 30px;
+
+}
+.cv-Dr p{
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 18px;
+    margin: 5% 2%;
+}       
+        /*  end ... Code CSS  for CV Dr zine part three  */
+ /* _____________________________________________________________________________________________________________________________________________________ */
+
+          /* start ... code css for RDV en lign  */
+.img-rdv{
+    background-image: url(Photo/IMG_14.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+} 
+.img-rdv h1{
+    color: #2b90d9;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    padding-top: 10%;
+    font-family: Georgia, serif;
+}         
+          /* end ... code css for RDV en lign  */
+ /* _____________________________________________________________________________________________________________________________________________________ */
+
+          /*  Start ... Code CSS for  business Dr zine part four --> */
+ .business{
+    clear: both;
+    width: 100%;
+    height: 50vh;
+    border: 1px solid black;
+    margin: 1% 0 5% 0;
+}          
+         /*  Start ... Code CSS for business Dr zine part four --> */
+ /* _____________________________________________________________________________________________________________________________________________________ */
+        /*  start ... Code CSS for Make appointemet parti five  --> */
+.make{
+    clear: both;
+    display: table;
+    content: "";
+}   
+.make{
+    margin-top: 12%;
+    float: left;
+    width: 50%;
+}  
+.make h1{
+    color: #6AAFE6;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+.make p{
+    margin: 2% 0 5% 3%;
+    line-height: 2;
+    text-indent: 50px;
+} 
+.make ul{
+    font-size: 20px;
+    margin-left: 20%;
+    line-height: 2;
+}
+.make ul .fa{
+    color: #6AAFE6;
+}
+
+        /*  end ... Code CSS for Make appointemet parti five  --> */
+ /* _____________________________________________________________________________________________________________________________________________________ */
+
+            /*  Start ... Code CSS for RDV Dr zine part six  */
+.hedding{
+    color: #6AAFE6;
+    font-size: 35px;
+    margin-left: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.appointment{
+    float: right;
+    border: 1px solid #6AAFE6;
+    border-radius: 20px;
+    width: 40%;
+    margin: 12% 2% 10% 5% ;
+    padding: 2%;
+    box-shadow: 8px 6px 0px 0px #CADBE9;
+}  
+.input-style{
+ max-width: 400px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+  border-bottom: 2px solid #6AAFE6;
+
+}
+.input-style input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  .input-style i {
+    text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    transition: 0.5s;
+    font-size: 1.1rem;
+  }
+ select{
+    font-size: 1.1rem;
+    border-bottom: 2px solid #6AAFE6;
+    width: 400px;
+    margin: 10px 0;
+    height: 55px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+    background-color: #f0f0f0;   
+}
+button{
+    /* background: #60b4df; */
+    padding: 10px 30px 10px 30px;
+    border-radius: 55px;
+    font-size: 20px;
+    margin: 0 30%;
+}
+input[type=radio]{
+    margin-left: 5%;
+}
+option{
+    background: #f3f4f5;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin: 2% 0 0 5%;
+} 
+
+            /*  end ... Code CSS for RDV Dr zine part six  */
+ /* _____________________________________________________________________________________________________________________________________________________ */
+
+
+.announcement{
+    clear: both;
+    border: 1px solid black;
+    width: 100%;
+    height: 20vh;
+    margin-top: 20%;
+    /* position: relative; */
+}
+
+      /*  start ... code CSS for More Details parti nine   - */
+    
+.information{
+    background: #2b90d9;
+    width: 100%;
+    height: 80vh;
+    border-bottom: 2px solid #fff;
+}
+.information{
+    content: "";
+    display: table;
+    clear: both;
+}
+.information-clinic{
+    float: left;
+    width: 23%;
+    height: 60vh;
+    margin-left: 2%;
+    /* border: 1px solid black; */
+}
+.information-clinic img{
+    text-align: center;
+    width: 50%;
+    margin: 2% 0 2% 10%;
+}
+.information-clinic h2{
+    color: #e1eef6;
+    font-size: 28px;
+    padding:0 0  1% 7%;
+    font-weight: 900;
+    margin: 5% 0 0 13%;
+    align-items: center;
+    border-bottom: 3px solid #d9e1e8;
+    width: 80%;
+}
+.information-clinic p{
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+    /* width: 200px; */
+    margin: 5%;
+    line-height: 1.5;
+
+}
+.information-clinic h3{
+    font-family: Georgia, serif;
+    font-weight: 300;
+    color: #282c37;
+    border-bottom: 3px solid #d9e1e8;
+    width: 38%;
+    bottom: 10px;
+    font-size: 25px;
+    margin-top: 10%;
+    padding-bottom: 1%;
+
+}
+.information-clinic a{
+    font-family: Arial Narrow, sans-serif;
+    color: aliceblue;
+    text-align: left;
+    margin: 0 0 0 10%;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 2;
+    border-bottom: 2px solid 2px;
+    padding-bottom: 1%;
+
+
+}
+.information-clinic a:hover{
+    color:#9baec8;
+    /* color: rgba(240, 235, 235, 0.987); */
+    border-bottom: 3px solid #d9e1e8;
+    bottom: 5px;
+    height: 3px;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+.information-clinic h4{
+    font-weight: 300;
+    color: #e1eef6;
+    border-bottom: 2px solid #fff;
+    width: 70%;
+    padding: 0 0 1% 6%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top: 10%;
+    font-family: Times, Times New Roman, serif;
+}
+.information-clinic h4 span{
+    color: #d9e1e8;
+}
+.information-clinic a:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 100%;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1.2s linear;
+}
+.information-clinic ul li{
+    color: #fff;
+    margin-left: 60px;
+}
+.social-networking{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+    border-bottom:2px solid #fff;
+    padding-bottom: 3%;
+    
+}
+.social-networking a{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 3%;
+}
+.social-networking a:hover{
+    color: #e1eef6;
+
+}
+.para{
+    text-align: center;
+    font-size: 18px;
+    font-family: oblique;
+    color: #fff;
+    margin: 1% 0 1% 0;
+}
+           /*  end ... code CSS for More Details parti nine   - */
+    
+    /*  ________________________________________________________________________________________________________ --> */
+    

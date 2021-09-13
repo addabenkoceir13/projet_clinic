@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.btn{
+    margin: 10px 30px;
+    padding: 10px 30px;
+}
+
+/*  start ...Code CSS For Clinic EL-AMEN RSMI part one  */
+section .clinic  {
+    text-align: center;
+    margin: 2% 0 0 2%;
+}
+section .clinic .elamen{
+    font-size: 45px;
+
+    display: inline;
+    color: #f52c51;
+}
+.datc{
+    font-size: 45px;
+    display: inline;
+    color:#60b4df;
+    border-bottom: 3px solid #60b4df;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+
+            /*  end ...Code CSS For Clinic EL-AMEN RSMI part one */
+/* ____________________________________________________________________________________________________________________________________________________________________________________ */
+    /*  Start ... Code CSS for  Logo RDV  part Two  ... -  */
+.logo-rdv{
+        position: relative;
+        background: url(../photo/IMG_01.jpg) no-repeat center/cover;
+        width: 100%;
+        height: 80vh;
+        background-position: 100% 70%;
+        margin-top: 30px;
+}
+.log-rdv-text{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        max-width: 700px;
+        padding: 2rem 1rem;
+
+}
+.logo-rdv .log-rdv-text  h1{
+        color: #2b90d9 ;
+        font-size: 45px;
+        font-family:  Georgia, serif;
+        margin: 10px;
+        font-weight: 100;
+        transition: 0.9s;
+        font-style: oblique;
+}
+.logo-rdv .log-rdv-text  h3{
+        color: #2b90d9;
+        font-size: 25px;
+        font-family: Georgia, serif;
+        margin-top: 45px;
+        font-weight: 200;
+        font-style: inherit;
+}
+.logo-rdv .log-rdv-text  h3 span{
+        color:#e11c1f ;
+}
+                /*  end ... Code CSS for  Logo RDV  part Two  ... -  */
+
+       /*  Start ... Code CSS for  Logo RDV  part Two  ... -  */
+.logo-rdv{
+    width: 100%;
+}
+.logo-rdv .log-rdv-text  h1{
+    font-size: 25px;
+    font-weight: 900;
+    width: 100%;
+}
+.logo-rdv .log-rdv-text  h3{
+    width: 100%;
+}
+     /*  end ... Code CSS for  Logo RDV  part Two  ... -  */
+     .appointment{
+        text-align: center;
+        align-items: center;
+        margin:50px 0;
+    }
+    .appointment h1{
+        font-size: 45px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #2b90d9 ;
+    }
+    .appointment h3{
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #2b90d9 ;
+        margin-top: 25px;
+    }
+     .form01{
+         /* background-color: #fff; */
+         border-radius: 20px;
+         margin: auto;
+         align-items: center;
+         max-width: 900px;
+         margin-top: 60px;
+         box-shadow: -8px -8px 10px #ccc,
+                     8px 8px 10px #ccc;
+     }
+     form{
+         border-radius: 20px;
+         background-color: #fff;
+         padding: 30px 45px;
+         margin: 30px 45px;
+     }
+     label{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15;
+        
+     }
+     input{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15;
+        font-weight: 400;
+
+     }
+    
+       /*  start ... code CSS for More Details parti nine   - */
+    
+       .information{
+        background: #2b90d9;
+        width: 100%;
+        height: 80vh;
+        border-bottom: 2px solid #fff;
+        margin-top: 100px;
+        display: block;
+    }
+    .information{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .information-clinic{
+        float: left;
+        width: 23%;
+        height: 60vh;
+        margin-left: 2%;
+        /* border: 1px solid black; */
+    }
+    .information-clinic img{
+        text-align: center;
+        width: 50%;
+        margin: 2% 0 2% 10%;
+    }
+    .information-clinic h2{
+        color: #e1eef6;
+        font-size: 28px;
+        padding:0 0  1% 7%;
+        font-weight: 900;
+        margin: 5% 0 0 13%;
+        align-items: center;
+        border-bottom: 3px solid #d9e1e8;
+        width: 80%;
+    }
+    .information-clinic p{
+        font-size: 20px;
+        color: #fff;
+        text-align: justify;
+        /* width: 200px; */
+        margin: 5%;
+        line-height: 1.5;
+    
+    }
+    .information-clinic h3{
+        font-family: Georgia, serif;
+        font-weight: 300;
+        color: #282c37;
+        border-bottom: 3px solid #d9e1e8;
+        width: 38%;
+        bottom: 10px;
+        font-size: 25px;
+        margin-top: 10%;
+        padding-bottom: 1%;
+    
+    }
+    .information-clinic a{
+        font-family: Arial Narrow, sans-serif;
+        color: aliceblue;
+        text-align: left;
+        margin: 0 0 0 10%;
+        font-weight: 100;
+        font-size: 25px;
+        line-height: 2;
+        border-bottom: 2px solid 2px;
+        padding-bottom: 1%;
+    
+    
+    }
+    .information-clinic a:hover{
+        color:#9baec8;
+        /* color: rgba(240, 235, 235, 0.987); */
+        border-bottom: 3px solid #d9e1e8;
+        bottom: 5px;
+        height: 3px;
+        width: 100%;
+        transition: 0.5s;
+        
+    }
+    .information-clinic h4{
+        font-weight: 300;
+        color: #e1eef6;
+        border-bottom: 2px solid #fff;
+        width: 70%;
+        padding: 0 0 1% 6%;
+        margin-bottom: 20px;
+        font-size: 25px;
+        margin-top: 10%;
+        font-family: Times, Times New Roman, serif;
+    }
+    .information-clinic h4 span{
+        color: #d9e1e8;
+    }
+    .information-clinic a:before{
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: -5px;
+        height: 3px;
+        width: 100%;
+        background: white;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 1.2s linear;
+    }
+    .information-clinic ul li{
+        color: #fff;
+        margin-left: 60px;
+    }
+    .social-networking{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10%;
+        border-bottom:2px solid #fff;
+        padding-bottom: 3%;
+        
+    }
+    .social-networking a{
+        color: #fff;
+        font-size: 50px;
+        margin-top: 3%;
+    }
+    .social-networking a:hover{
+        color: #e1eef6;
+    
+    }
+    .para{
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        font-family: oblique;
+        color: #fff;
+        margin: 1% 0 1% 0;
+    }
+    .fa{
+        padding: 5px;
+    }
+               /*  end ... code CSS for More Details parti nine   - */
+
+/* Appointment date */
+
+.box-1{
+    background-color: #fff;
+    box-shadow: -108px -108px 10px #000,
+                 8px 8px  10 #000;
+                 margin-top: 50px;
+}
+.box-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.hed1{
+    text-align: left;
+    padding: 10px 20px;
+}
+.hed2{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0;
+
+}
+.note{
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border-left: 5px solid red;
+    background-color: rgb(243, 243, 243);
+}
+
+
+

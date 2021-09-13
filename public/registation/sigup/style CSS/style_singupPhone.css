@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+
+@media  screen and (max-width:880px){
+    
+    /* .container{
+      width: 100%;
+      margin-top: 150px;
+    } */
+    .container h1 , p{
+       text-align: center;
+     }
+     .container{
+         width: 480px;
+         margin-top: 50%;
+     }
+     .container .photo-sing img{
+         /* display: none; */
+        width: 100%;
+        text-align: center;
+    }
+     .container form{
+       margin: 35px 20px;
+     }
+     form .input_field{
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+       display: flex; 
+       flex-direction: column;
+       margin-bottom: 0px;
+     }
+     form .input_field .form-control{
+       width: 100%;
+       height: 45px;
+       margin-left: -85px;
+       margin-bottom: 20px;
+     }
+     
+     .input_field  button{
+       margin-left: -25%;
+     }
+     
+    
+} 

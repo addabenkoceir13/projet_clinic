@@ -1,0 +1,806 @@
+
+/* _______________________________________________________________________________________________________________________ */
+
+        /* start ...Code CSS For Clinic EL-AMEN + log-sign  */
+section .clinic  {
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0;
+}
+section .clinic .elamen{
+    display: inline;
+    color: #f52c51;
+}
+.datc{
+    display: inline;
+    color:#60b4df;
+    border-bottom: 3px solid #60b4df;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+section .annoucement{
+    border: 1px solid black;
+    width: 95%;
+    margin: 1% 3%;
+    height: 20vh;
+}
+
+        /* end ...Code CSS For Clinic EL-AMEN + log-sign  */
+/* ____________________________________________________________________________________________________________________________________ */
+
+       /*  Start ... Code CSS For Photos around a clinic part Three */
+.section-mobile-photos{
+    margin: -10px 10px 0 -10px ;
+}
+.img-slider .slide #img01{
+    background: url(photo/IMG_01.JPG);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat; 
+    height: 100%;
+    width: 100%;
+}
+.img-slider .slide #img02{
+    background: url(photo/IMG_02.JPG);
+    background-size: cover;
+    background-position:center; 
+    height: 100%;
+    width: 100%;
+  
+}
+.img-slider .slide #img03{
+    background: url(photo/IMG_03.JPG);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat; 
+
+    height: 100%;
+    width: 100%;
+}
+.img-slider .slide #img04{
+    background: url(photo/IMG-04.JPG);
+    background-size: cover;
+    background-position:center; 
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+}
+.img-slider .slide #img04a{
+    background: url(photo/IMG_05.JPG);
+    background-size: cover;
+    background-position:center; 
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+}
+.img-slider .slide #img05{
+    background: url(photo/IMG_10d.JPG);
+    background-size: cover;
+    background-position:center; 
+    height: 100%;
+    width: 100%;
+}
+.img-slider .slide #img05a{
+    background: url(photo/IMG_10b.JPG);
+    background-size: cover;
+    background-position:center; 
+    height: 100%;
+    width: 100%;
+}
+.img-slider .slide #img05b{
+    background: url(photo/IMG_10c.JPG);
+    background-size: cover;
+    background-position:center; 
+    height: 100%;
+    width: 100%;
+}
+.img-slider .slide #img06{
+    background: url(photo/IMG_13.JPG);
+    background-size: cover;
+    background-position:center; 
+    height: 100%;
+    width: 100%;
+}
+.img-slider .slide #img07{
+    background: url(photo/IMG-012.JPG);
+    background-size: cover;
+    background-position:center; 
+    height: 100%;
+    width: 100%;
+    /* border-top-left-radius: 8: */
+}
+.img-slider .slide #img08{
+    background: url(photo/IMG-20.JPG);
+    background-size: cover;
+    background-position:center; 
+    height: 100%;
+    width: 100%;
+    /* border-top-left-radius: 8: */
+}
+.img-slider .slide #img09{
+    background: url(photo/IMG_14.JPG);
+    background-size: cover;
+    background-position:center; 
+    height: 100%;
+    width: 100%;
+    
+}
+
+.img-slider{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    margin: 10px;
+    background: #00b9f1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.img-slider .slide{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(0% at 0 50%);
+  }
+  
+  .img-slider .slide.active{
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+  }
+  
+  .img-slider .slide img{
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .img-slider .slide .info{
+    position: absolute;
+    top: 0;
+    padding: 15px 30px;
+  }
+  
+  .img-slider .slide .info h2{
+    text-align: center;
+    color: #f3f4f5;
+    background: rgba(115, 171, 245, 0.511);
+    font-size: 35px;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .img-slider .slide .info h2 samp{
+      font-size: 45px;
+      color: red;
+      font-weight: 900;
+  }
+  
+  .img-slider .slide .info p{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    width: 60%;
+    padding: 50px;
+    border-radius: 4px;
+    margin-top: 33%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  
+  .img-slider .navigation{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .img-slider .navigation .btn{
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    padding: 0;
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .img-slider .navigation .btn.active{
+    background: #2696E9;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+       /*  end ... Code CSS For Photos around a clinic part Three */
+
+/* _______________________________________________________________________________________________________________________ */
+
+      /* Srart .. Code CSS for information Part four */
+.info-your{
+    position: relative;
+    background: url(photo/IMG-02.jpg) no-repeat center/cover;
+    height: 80vh;
+    margin: 100px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.9s; 
+}
+.info-your:hover{
+    border-radius: none;
+    box-shadow: 15px 15px 15px 15px rgba(115, 171, 245, 0.511) ,
+                 10px 10px 10px 10px rgba(115, 171, 245, 0.511)   ; }
+.over{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(24, 79, 104, 0.6);
+    border-radius: 30px;                            }
+.info-your-css{
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 900px;
+    padding: 2rem 1rem;
+}
+.info-your-css h1{
+    font-size: 3.5rem;
+    font-family: Comic Sans MS, Comic Sans, cursive;                            }
+.info-your-css p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: Snell Roundhand, cursive;
+}
+.info-your-css .book{
+    font-family: Comic Sans MS, Comic Sans, cursive;  
+    background-color: #fff;
+    color: #000;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    transition: 0.7s;
+
+}
+.info-your-css .book:hover{
+    transition: 0.9s;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+      /* end .. Code CSS for information Part four */
+
+/* _______________________________________________________________________________________________________________________ */
+ 
+     /*  start ... Code CSS For Annoucement Part Five  */
+.annoucement{
+    padding: 1%;
+    border: 1px solid black;
+    width: 95%;
+    height: 20vh;
+    margin: 0 3% 0 3% ;
+
+}
+     /*  start ... Code CSS For Annoucement Part Five  */
+
+/* _______________________________________________________________________________________________________________________ */
+     /*  start ... Code For Google maps clinic Part Five  */
+.maps{
+    height: 100vh;
+}
+#map{
+    width: 45%;
+    margin: 2%;
+    float: left;
+    border-radius: 30px;
+}
+.map-text {
+    float: right;
+    width:45%;
+    margin: 10% 0 0 5%;
+}
+.map-text h2{
+    border-bottom: 3px solid #60b4df;
+    width: 350px;
+    /* margin-left: -15%; */
+    font-size: 45px;
+    color: #60b4df;
+}
+.map-text h2 samp{
+    color: #f52c51;
+}
+.map-text p{
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 25px;
+    line-height: 2;
+    /* margin-left: -18%; */
+    margin-right: 10%;
+    margin-top: 10%;
+    font-family: serif;
+    /* margin: -15; */
+}
+.map-text h6{
+    font-size: 25px;
+    margin-top: 20%;
+    font-family: serif;
+}
+.map-text i{
+    color: #60b4df;
+    font-size: 35px;
+}
+     /*  end ... Code For Google maps clinic Part Five  */   
+/*  ________________________________________________________________________________________________________ --> */
+
+         /* start ... Code CSS for Our Specialist part Siven */
+#home{
+     color: #d8e1e7;
+     text-align: center;
+     margin-left: 3%;
+     margin-top: 10%;
+}
+.specialist-bor{
+    width: 100%;
+    margin-top: 5%;
+}
+.specialist-bor::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.specialist-info {
+    float: left;
+    width: 33%;
+    height: 55vh;
+    /* margin-left: 33%; */
+    border: .2px solid rgba(0, 0, 0, 0.1);
+    padding: 15% 5% 5% 5%; 
+    
+} 
+.our-sprcia h1{
+    text-align: center;
+    color: black;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+.our-sprcia p{
+    columns:auto;
+    color: black;
+    text-align: center;
+    margin: 4%;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+}
+.our-sprcia h1:after{
+    background: #5797ee;
+    margin-bottom: 3%;
+}
+.our-sprcia h1:after
+{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 5px;
+    background: #5797ee;
+    text-align: center;
+    margin: auto auto 5% auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: -3%;
+    z-index: 10;
+
+
+} 
+.specialist-bor .specialist-info{
+    background: #f3f4f5;
+    float: left;
+    text-align: center;
+    padding: 2% 1% 8% 1%;
+    margin: 0%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: black;
+    line-height: 1.5;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+}
+.specialist-bor .specialist-info h2{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.specialist-bor .specialist-info:hover{
+    background:#2696E9 ;
+    transition: 0.9s;
+    color: #efefef;
+}
+.specialist-bor .specialist-info img{
+    width: 200px;
+    border-radius: 50%;
+}
+           
+         /* end ... Code CSS for Our Specialist part Siven */
+/*  ________________________________________________________________________________________________________ --> */
+
+        /* Start .. Code CSS  for our Service part Heght */
+
+.our-serv{
+    content: "";
+    display: table;
+    clear: both;
+}
+.our-serv{
+    padding: 0;
+    background-color: #f3f4f5;
+}
+.service-disponible{
+    float: left;
+    width: 50%;
+    height: 35vh;
+    padding: 10px;
+}
+section h1{
+    text-align: center;
+    margin: 2%;   
+}
+section h1 .our-serv{
+    background: #5797ee;
+    padding-top: 2%;
+}
+section h1::after{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 7px;
+    background: #5797ee;
+    margin: auto;
+    left: 0;
+    right: 0;
+}  
+
+ 
+.our-serv .service-disponible img{
+    width: 300px;
+    height: 250px;
+    float: left;
+    padding: 0;
+    margin-right: 3%;
+    /* margin: 3%; */
+}
+.service-disponible {
+    clear: right;
+    
+}  
+.our-serv .service-disponible  h2{
+    text-align: left;
+    color: black;
+    padding:2% 0 1% 2%;
+    margin-left: 15%;
+    /* position: relative;  */
+    clear: right;
+}  
+.service-disponible  p{
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    margin: 1% 0 3% 0;
+    
+} 
+.service-disponible  a {
+    text-align: center;
+    color: #f3f4f5;
+    background: #5797ee;
+    padding: 2% 3% 2% 3%;
+    border-radius: 10px;
+    margin-left:0% ;
+    margin-top: 2%;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+} 
+.service-disponible  a:hover{
+    background:#50a9d6 ;
+    
+
+}
+        /* end .. Code CSS  for our Service part Heght */
+
+/*  ________________________________________________________________________________________________________ --> */
+
+        /* Start .. Code CSS  for box-annoucement part Nine */
+.box-annoucement
+{
+    border: 1px solid black;
+    height: 80vh;
+    width: 80%;
+    margin: 0.5% 0 0 10%;
+}
+        /* end .. Code CSS  for box-annoucement part Nine */
+/*  ________________________________________________________________________________________________________ --> */
+
+        /*  start ... code CSS For quetion part ten   */
+#question{
+    margin: 5% 0 5% 0;
+    position:relative ;
+    
+}
+.your-question{
+    /* margin: 10% 0 20% 0; */
+    clear: both;
+    background: url(photo/IMG-QS01.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  
+}
+.your-asked{
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 90%;
+    width: 50%;
+}
+.your-question  h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding: 10px;
+    margin: 50px 0;
+    background: rgba(255, 255, 255, 0.6);
+    color: #000;
+    border-radius: 20px;
+}
+
+.your-question .your-asked form{
+    margin: 10px;
+    padding: 5px;
+}
+input[type=text], [type=tel], textarea {
+    border: 1px solid #fff;
+    width: 80%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+input[type=text]:hover, [type=tel]:hover, textarea:hover{
+    transition: 0.9s;
+    background: rgba(226, 222, 222,0.4);
+}
+.your-question .your-asked button {
+    background-color: #4CAF50;
+    font-size: 20px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50%;
+    /* float: right; */
+}
+.your-question .your-asked button:hover{
+   background-color: #45a049;
+ 
+}
+
+/*  ________________________________________________________________________________________________________ --> */
+
+        /*  start ... code CSS For Contact part elevne   */
+.section-contact {
+    position: relative;
+    background: url(photo/IMG-CON01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    clear: both;
+  }
+  .overlay{
+      position: absolute;
+      background-color: rgba(24, 79, 104, 0.7);
+      width: 100%;
+      height: 100%;
+  }
+  .contact-inner {
+    color: #cdd5dd;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 860px;
+    padding: 5rem 1rem;
+  }
+  
+  .contact-inner h2 {
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+  }
+  
+  .contact-inner p {
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+  }
+  .contact-inner a{
+      color: #efefef;
+      font-size: 30px;
+      transition: 0.9s;
+      width: 100%;
+  }
+  .contact-inner a:hover{
+    color: #080809;
+    font-size: 35px;
+    margin: 1%;
+}       
+        /*  end ... code CSS For Contact part elevne   */
+/*  ________________________________________________________________________________________________________ --> */
+
+       /*  start ... code CSS for More Details parti Twelve   - */
+    
+.information{
+    background: #2b90d9;
+    width: 100%;
+    height: 80vh;
+    border-bottom: 2px solid #fff;
+}
+.information{
+    content: "";
+    display: table;
+    clear: both;
+}
+.information-clinic{
+    float: left;
+    width: 23%;
+    height: 60vh;
+    margin-left: 2%;
+    /* border: 1px solid black; */
+}
+.information-clinic img{
+    text-align: center;
+    width: 50%;
+    margin: 2% 0 2% 10%;
+}
+.information-clinic h2{
+    color: #e1eef6;
+    font-size: 28px;
+    padding:0 0  1% 7%;
+    font-weight: 900;
+    margin: 5% 0 0 13%;
+    align-items: center;
+    border-bottom: 3px solid #d9e1e8;
+    width: 80%;
+}
+.information-clinic p{
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+    /* width: 200px; */
+    margin: 5%;
+    line-height: 1.5;
+
+}
+.information-clinic h3{
+    font-family: Georgia, serif;
+    font-weight: 300;
+    color: #282c37;
+    border-bottom: 3px solid #d9e1e8;
+    width: 38%;
+    bottom: 10px;
+    font-size: 25px;
+    margin-top: 10%;
+    padding-bottom: 1%;
+
+}
+.information-clinic a{
+    font-family: Arial Narrow, sans-serif;
+    color: aliceblue;
+    text-align: left;
+    margin: 0 0 0 10%;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 2;
+    border-bottom: 2px solid 2px;
+    padding-bottom: 1%;
+
+
+}
+.information-clinic a:hover{
+    color:#9baec8;
+    /* color: rgba(240, 235, 235, 0.987); */
+    border-bottom: 3px solid #d9e1e8;
+    bottom: 5px;
+    height: 3px;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+.information-clinic h4{
+    font-weight: 300;
+    color: #e1eef6;
+    border-bottom: 2px solid #fff;
+    width: 70%;
+    padding: 0 0 1% 6%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top: 10%;
+    font-family: Times, Times New Roman, serif;
+}
+.information-clinic h4 span{
+    color: #d9e1e8;
+}
+.information-clinic a:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 100%;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1.2s linear;
+}
+.information-clinic ul li{
+    color: #fff;
+    margin-left: 60px;
+    /* list-style-type: square; */
+}
+.social-networking{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+    border-bottom:2px solid #fff;
+    padding-bottom: 3%;
+    
+}
+.social-networking a{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 3%;
+}
+.social-networking a:hover{
+    color: #e1eef6;
+
+}
+.para{
+    text-align: center;
+    font-size: 18px;
+    font-family: oblique;
+    color: #fff;
+    margin: 1% 0 1% 0;
+}
+       /*  end ... code CSS for More Details parti Twelve   - */
+
+/*  ________________________________________________________________________________________________________ --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
