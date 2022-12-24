@@ -21,12 +21,21 @@ Medical clinic website, which covers arranging medical appointments for the gene
  ![4](https://user-images.githubusercontent.com/64089992/209437696-45736669-27d7-480e-ab0e-d7b00fb44e4a.png)
 
 ###  The page with the appointment date.
-![8](https://user-images.githubusercontent.com/64089992/209437750-05f59f4c-deae-40bc-9113-c84f06dc3eb3.png)
+
+![7](https://user-images.githubusercontent.com/64089992/209437836-9e7443a1-494a-491f-bc2b-e865497e83cb.png)
 
 ### Page of appointment confirmation 
 ![6](https://user-images.githubusercontent.com/64089992/209437773-f84b89df-6a77-41ff-875f-0ca1713006bd.png)
 
 ### The secretary accepts and cancels appointments for the page.
 
-![7](https://user-images.githubusercontent.com/64089992/209437746-fcc3693d-cd94-4d55-9dc8-2a39e07d5c8e.png)
+![8](https://user-images.githubusercontent.com/64089992/209437750-05f59f4c-deae-40bc-9113-c84f06dc3eb3.png)
+
+# Technologies Used in the Project
+<ul>
+ <li>HTML5 && CSS3 && Bootstrap<li>
+ <li>JS.<li>
+ <li>PHP.<li>
+ <li>database MySQL<li>
+ </ul>
 
